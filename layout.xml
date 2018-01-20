@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+       <row>
+               <button icon="list" onTap="download_subtitles" />
+               <button icon="refresh" onTap="shift_subtitles" />
+		<button icon="rotateleft" onTap="decrease_subtitle_delay" />
+		<button icon="rotateright" onTap="increase_subtitle_delay" />		
+	</row>
+	<row>
+		<button icon="vdown" onTap="volume_down" onhold="volume_down_fast" onup="volume_down_fast_stop" />
+		<button icon="vmute" onTap="volume_mute" />
+		<button icon="vup" onTap="volume_up" onhold="volume_up_fast" onup="volume_up_fast_stop" />
+	</row>
+       <row>
+		<button icon="previous" onTap="skip_back" />
+               <button image="file-audio-o.png" onTap="switch_audio_track" />
+               <button icon="camera" onTap="screenshot" />
+		<button icon="next" onTap="skip_forward" />		
+	</row>
+	<row>
+		<button icon="rwd" onTap="previous" onhold="rewind" onup="rewindstop" />
+		<button icon="ff" onTap="next" onhold="forward" onup="forwardstop" />		
+	</row>
+	<row>
+            	<button icon="docclose" onTap="exit" /> 
+               <button icon="window" onTap="window_mod" /> 
+		<button icon="fullscreen" onTap="fullscreen" />
+               <button icon="playpause" onTap="play_pause" />
+               <button icon="more" onTap="OSD" />
+	</row>
+</layout>
